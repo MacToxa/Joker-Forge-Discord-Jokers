@@ -33,7 +33,7 @@ SMODS.Joker{ --Joeker
     unlocked = true,
     discovered = true,
     atlas = 'CustomJokers',
-    pools = { ["jokerfor_jfdj_jokers"] = true },
+    pools = { ["jfdj_jfdj_jokers"] = true },
     
     calculate = function(self, card, context)
         if context.setting_blind  then

@@ -1,18 +1,18 @@
 
-SMODS.Joker{ --Mr. No mouth must scream
-    key = "mrnomouthmustscream",
+SMODS.Joker{ --Mannequin Joker
+    key = "mannequinjoker",
     config = {
         extra = {
             mult0 = 4
         }
     },
     loc_txt = {
-        ['name'] = 'Mr. No mouth must scream',
+        ['name'] = 'Mannequin Joker',
         ['text'] = {
-            [1] = 'I have no mouth and I must {C:red}+4{} Mult',
+            [1] = '{C:red}+4{} Mult without consuming slots, nice',
             [2] = '',
-            [3] = '{C:inactive}Art by radicaldude55_97287',
-            [4] = 'Ability by oxicreep{}'
+            [3] = '{C:inactive}Art by arem82_10969',
+            [4] = 'Ability by me{}'
         },
         ['unlock'] = {
             [1] = 'Unlocked by default.'
@@ -20,7 +20,7 @@ SMODS.Joker{ --Mr. No mouth must scream
     },
     pos = {
         x = 4,
-        y = 0
+        y = 1
     },
     display_size = {
         w = 71 * 1, 
@@ -35,6 +35,10 @@ SMODS.Joker{ --Mr. No mouth must scream
     discovered = true,
     atlas = 'CustomJokers',
     pools = { ["jfdj_jfdj_jokers"] = true },
+    
+    set_ability = function(self, card, initial)
+        card:set_edition("e_negative", true)
+    end,
     
     calculate = function(self, card, context)
         if context.cardarea == G.jokers and context.joker_main  then

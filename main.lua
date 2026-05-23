@@ -59,13 +59,16 @@ if true then
     assert(SMODS.load_file("jokers/templatetickets.lua"))()
     assert(SMODS.load_file("jokers/mandelajoker.lua"))()
     assert(SMODS.load_file("jokers/joeker.lua"))()
+    assert(SMODS.load_file("jokers/johnstencil.lua"))()
+    assert(SMODS.load_file("jokers/jokeyforgey.lua"))()
+    assert(SMODS.load_file("jokers/mannequinjoker.lua"))()
 end
 -- load the consumables
 if true then
     assert(SMODS.load_file("consumables/nothing.lua"))()
 end
 SMODS.ObjectType({
-    key = "jokerfor_food",
+    key = "jfdj_food",
     cards = {
         ["j_gros_michel"] = true,
         ["j_egg"] = true,
@@ -80,20 +83,29 @@ SMODS.ObjectType({
 })
 
 SMODS.ObjectType({
-    key = "jokerfor_jfdj_jokers",
+    key = "jfdj_jfdj_jokers",
     cards = {
-        ["j_jokerfor_warpedjoker"] = true,
-        ["j_jokerfor_eugene"] = true,
-        ["j_jokerfor_bluejokerofdeath"] = true,
-        ["j_jokerfor_corruptedjoker"] = true,
-        ["j_jokerfor_mrnomouthmustscream"] = true,
-        ["j_jokerfor_giraffejoker"] = true,
-        ["j_jokerfor_enpassant"] = true,
-        ["j_jokerfor_jkr"] = true,
-        ["j_jokerfor_redline"] = true,
-        ["j_jokerfor_templatetickets"] = true,
-        ["j_jokerfor_mandelajoker"] = true,
-        ["j_jokerfor_joeker"] = true
+        ["j_jfdj_warpedjoker"] = true,
+        ["j_jfdj_eugene"] = true,
+        ["j_jfdj_bluejokerofdeath"] = true,
+        ["j_jfdj_corruptedjoker"] = true,
+        ["j_jfdj_mrnomouthmustscream"] = true,
+        ["j_jfdj_giraffejoker"] = true,
+        ["j_jfdj_enpassant"] = true,
+        ["j_jfdj_jkr"] = true,
+        ["j_jfdj_redline"] = true,
+        ["j_jfdj_templatetickets"] = true,
+        ["j_jfdj_mandelajoker"] = true,
+        ["j_jfdj_joeker"] = true,
+        ["j_jfdj_mannequinjoker"] = true
+    },
+})
+
+SMODS.ObjectType({
+    key = "jfdj_jokerfor_jokers",
+    cards = {
+        ["j_jfdj_johnstencil"] = true,
+        ["j_jfdj_jokeyforgey"] = true
     },
 })
 

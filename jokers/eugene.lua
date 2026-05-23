@@ -33,5 +33,5 @@ SMODS.Joker{ --Eugene
     unlocked = true,
     discovered = true,
     atlas = 'CustomJokers',
-    pools = { ["jokerfor_jfdj_jokers"] = true }
+    pools = { ["jfdj_jfdj_jokers"] = true }
 }

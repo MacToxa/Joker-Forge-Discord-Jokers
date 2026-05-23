@@ -34,7 +34,7 @@ SMODS.Joker{ --Redline
     unlocked = true,
     discovered = true,
     atlas = 'CustomJokers',
-    pools = { ["jokerfor_jfdj_jokers"] = true },
+    pools = { ["jfdj_jfdj_jokers"] = true },
     
     calculate = function(self, card, context)
         if context.individual and context.cardarea == G.play  then

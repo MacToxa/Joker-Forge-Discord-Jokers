@@ -33,7 +33,7 @@ SMODS.Joker{ --Blue Joker Of Death
     unlocked = true,
     discovered = true,
     atlas = 'CustomJokers',
-    pools = { ["jokerfor_jfdj_jokers"] = true },
+    pools = { ["jfdj_jfdj_jokers"] = true },
     
     calculate = function(self, card, context)
         if context.buying_card and context.card.config.center.key == self.key and context.cardarea == G.jokers  then

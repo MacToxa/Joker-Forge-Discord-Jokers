@@ -1,16 +1,16 @@
 
-SMODS.Joker{ --En passant
-    key = "enpassant",
+SMODS.Joker{ --Jokey Forgey
+    key = "jokeyforgey",
     config = {
         extra = {
         }
     },
     loc_txt = {
-        ['name'] = 'En passant',
+        ['name'] = 'Jokey Forgey',
         ['text'] = {
             [1] = 'placeholder; give suggestions for abilities',
             [2] = '',
-            [3] = '{C:inactive}Art by flying_oganesson',
+            [3] = '{C:inactive}Art by stefwuzhere',
             [4] = 'Ability by ...{}'
         },
         ['unlock'] = {
@@ -18,8 +18,8 @@ SMODS.Joker{ --En passant
         }
     },
     pos = {
-        x = 6,
-        y = 0
+        x = 3,
+        y = 1
     },
     display_size = {
         w = 71 * 1, 
@@ -33,5 +33,5 @@ SMODS.Joker{ --En passant
     unlocked = true,
     discovered = true,
     atlas = 'CustomJokers',
-    pools = { ["jfdj_jfdj_jokers"] = true }
+    pools = { ["jfdj_jokerfor_jokers"] = true }
 }
