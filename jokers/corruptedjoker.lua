@@ -3,7 +3,7 @@ SMODS.Joker{ --Corrupted Joker
     key = "corruptedjoker",
     config = {
         extra = {
-            xchips0 = 4
+            xmult0 = 4
         }
     },
     loc_txt = {
@@ -39,7 +39,7 @@ SMODS.Joker{ --Corrupted Joker
     calculate = function(self, card, context)
         if context.cardarea == G.jokers and context.joker_main  then
             return {
-                x_chips = 4
+                Xmult = 4
             }
         end
     end

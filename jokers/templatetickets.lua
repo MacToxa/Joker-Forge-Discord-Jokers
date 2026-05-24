@@ -9,10 +9,11 @@ SMODS.Joker{ --Template Tickets
     loc_txt = {
         ['name'] = 'Template Tickets',
         ['text'] = {
-            [1] = 'Tickets to the Jane Julliet concert, now at{C:money} 0.1${}!',
-            [2] = '',
-            [3] = '{C:inactive}Art by fromdusktildrawn',
-            [4] = 'Ability by me{}'
+            [1] = 'Sells tickets to the Balatro concert,',
+            [2] = 'now at {C:money} 0.1${} per ticket!',
+            [3] = '',
+            [4] = '{C:inactive}Art by fromdusktildrawn',
+            [5] = 'Ability by me{}'
         },
         ['unlock'] = {
             [1] = 'Unlocked by default.'

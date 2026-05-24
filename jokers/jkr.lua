@@ -10,9 +10,10 @@ SMODS.Joker{ --JKR
         ['name'] = 'JKR',
         ['text'] = {
             [1] = 'It seems like someone had colored over this Jack',
-            [2] = '',
-            [3] = '{C:inactive}Art by helloglob.',
-            [4] = 'Ability by me{}'
+            [2] = 'to use it as a joker',
+            [3] = '',
+            [4] = '{C:inactive}Art by helloglob.',
+            [5] = 'Ability by me{}'
         },
         ['unlock'] = {
             [1] = 'Unlocked by default.'
